@@ -1,0 +1,200 @@
+1
+00:00:00,000 --> 00:00:04,394
+It's time to put all of these data engineering skills to use.
+
+2
+00:00:04,394 --> 00:00:07,004
+You have a really cool project ahead of you.
+
+3
+00:00:07,004 --> 00:00:09,495
+Our partners at Figure Eight are providing
+
+4
+00:00:09,494 --> 00:00:13,980
+pre-labeled tweets and text messages from real life disasters.
+
+5
+00:00:13,980 --> 00:00:18,045
+Your task is to repair this data with an ETL Pipeline
+
+6
+00:00:18,045 --> 00:00:22,765
+and then use a Machine Learning Pipeline to build a supervised learning model.
+
+7
+00:00:22,765 --> 00:00:26,969
+Before you start, Robert is going to give us some background on where
+
+8
+00:00:26,969 --> 00:00:31,494
+the dataset came from and how Figure Eight prepared the data for us.
+
+9
+00:00:31,495 --> 00:00:35,160
+Thank you. So, this is one of the most important problems that
+
+10
+00:00:35,159 --> 00:00:38,834
+we're trying to solve in Data Science and Machine Learning right now.
+
+11
+00:00:38,835 --> 00:00:41,075
+So following a disaster,
+
+12
+00:00:41,075 --> 00:00:44,195
+typically you will get millions and millions of communications
+
+13
+00:00:44,195 --> 00:00:47,494
+either direct or via social media right at the time
+
+14
+00:00:47,494 --> 00:00:49,699
+when disaster response organizations have
+
+15
+00:00:49,700 --> 00:00:53,820
+the least capacity to filter and then pull out the messages which are the most important.
+
+16
+00:00:53,820 --> 00:00:55,880
+Often it really is only one in
+
+17
+00:00:55,880 --> 00:01:01,070
+every thousand messages that might be relevant to the disaster response professionals.
+
+18
+00:01:01,070 --> 00:01:03,980
+So, the way that disasters are typically responded to,
+
+19
+00:01:03,979 --> 00:01:07,219
+is that different organizations will take care of different parts of the problem.
+
+20
+00:01:07,219 --> 00:01:09,144
+So one organization will care about water,
+
+21
+00:01:09,144 --> 00:01:11,299
+another will care about blocked roads,
+
+22
+00:01:11,299 --> 00:01:13,605
+another will care about medical supplies.
+
+23
+00:01:13,605 --> 00:01:14,984
+So, when you look at the data,
+
+24
+00:01:14,984 --> 00:01:16,040
+you'll see that these are
+
+25
+00:01:16,040 --> 00:01:19,544
+the categories that we have pulled out for each of these datasets.
+
+26
+00:01:19,543 --> 00:01:22,069
+So, we actually used Figure Eight for many of
+
+27
+00:01:22,069 --> 00:01:24,829
+the disasters from which these messages are taken
+
+28
+00:01:24,829 --> 00:01:28,370
+then combined these datasets and relabeled them so that
+
+29
+00:01:28,370 --> 00:01:31,840
+they're consistent labels across the different disasters,
+
+30
+00:01:31,840 --> 00:01:35,659
+and this is to allow you to investigate the different trends that you
+
+31
+00:01:35,659 --> 00:01:39,724
+might be able to find and to build supervised Machine Learning models.
+
+32
+00:01:39,724 --> 00:01:41,809
+So you'll see for example,
+
+33
+00:01:41,810 --> 00:01:44,325
+when you look at a keyword like water,
+
+34
+00:01:44,325 --> 00:01:47,299
+that's actually a very small percent of the time that,
+
+35
+00:01:47,299 --> 00:01:49,039
+that will map to someone who needs
+
+36
+00:01:49,040 --> 00:01:53,200
+fresh drinking water and also that will miss people who say they're thirsty,
+
+37
+00:01:53,200 --> 00:01:54,659
+but don't use the word, "Water."
+
+38
+00:01:54,659 --> 00:01:58,069
+So, supervised Machine Learning-based approaches are going
+
+39
+00:01:58,069 --> 00:02:01,514
+to be a lot more accurate than anyone could do with keyword searching,
+
+40
+00:02:01,515 --> 00:02:05,450
+but this is actually a big gap right now in disaster response contexts.
+
+41
+00:02:05,450 --> 00:02:10,789
+So, I really look forward to seeing what you build in your projects and hopefully
+
+42
+00:02:10,789 --> 00:02:12,889
+discover new trends and new ways of building
+
+43
+00:02:12,889 --> 00:02:17,314
+Machine Learning models that can help us respond to future disasters.
+
+44
+00:02:17,314 --> 00:02:22,034
+One of my favorite parts about this project is how meaningful the work is.
+
+45
+00:02:22,034 --> 00:02:24,829
+Think about the benefits this solution brings to
+
+46
+00:02:24,830 --> 00:02:28,405
+people affected by natural disasters around the world.
+
+47
+00:02:28,405 --> 00:02:29,900
+In the next section,
+
+48
+00:02:29,900 --> 00:02:32,800
+you'll find more instructions on how to complete the project,
+
+49
+00:02:32,800 --> 00:02:37,140
+including an overview of the provided code and a rubric.
+
+50
+00:02:37,139 --> 00:02:41,039
+Good luck with your projects and I look forward to seeing the results.
+

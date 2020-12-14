@@ -1,0 +1,137 @@
+1
+00:00:01,467 --> 00:00:05,922
+PRÉVIA DO PROJETO
+DE PIPELINE DE RESPOSTA A DESASTRES
+
+2
+00:00:05,955 --> 00:00:07,098
+Neste projeto,
+
+3
+00:00:07,131 --> 00:00:10,313
+analisaremos milhares
+de mensagens reais,
+
+4
+00:00:10,346 --> 00:00:12,048
+fornecidas pela Figure Eight,
+
+5
+00:00:12,081 --> 00:00:15,009
+que foram enviadas
+durante desastres naturais
+
+6
+00:00:15,042 --> 00:00:16,760
+pelas redes sociais
+
+7
+00:00:16,793 --> 00:00:20,408
+ou diretamente para organizações
+de resposta a desastres.
+
+8
+00:00:20,441 --> 00:00:22,536
+Construiremos um pipeline ETL
+
+9
+00:00:22,569 --> 00:00:26,704
+que processa mensagens e dados
+de categoria de arquivos CSV
+
+10
+00:00:26,737 --> 00:00:29,511
+e os carrega em um banco
+de dados SQLite,
+
+11
+00:00:29,544 --> 00:00:32,406
+que será lido pelo pipeline
+de aprendizado de máquina
+
+12
+00:00:32,439 --> 00:00:36,863
+para criar e salvar um modelo
+supervisionado de múltiplos outputs.
+
+13
+00:00:36,896 --> 00:00:40,590
+Em seguida, o aplicativo web
+extrairá dados desse banco de dados
+
+14
+00:00:40,623 --> 00:00:42,935
+para fornecer
+visualizações de dados
+
+15
+00:00:42,968 --> 00:00:45,744
+e usará o modelo para classificar
+novas mensagens
+
+16
+00:00:45,777 --> 00:00:47,743
+em 36 categorias.
+
+17
+00:00:48,464 --> 00:00:50,335
+O aprendizado de máquina
+é essencial
+
+18
+00:00:50,368 --> 00:00:52,247
+para ajudar
+diferentes organizações
+
+19
+00:00:52,280 --> 00:00:55,244
+a entenderem quais mensagens
+são relevantes
+
+20
+00:00:55,277 --> 00:00:58,191
+e quais mensagens devem
+ser priorizadas.
+
+21
+00:00:58,224 --> 00:01:01,799
+Durante esses desastres,
+é quando eles têm a menor capacidade
+
+22
+00:01:01,832 --> 00:01:04,064
+de filtrar
+mensagens importantes
+
+23
+00:01:04,097 --> 00:01:05,711
+e encontrar mensagens básicas,
+
+24
+00:01:05,744 --> 00:01:10,232
+usando a busca de palavras-chave
+para fornecer resultados triviais.
+
+25
+00:01:10,265 --> 00:01:11,391
+Neste curso,
+
+26
+00:01:11,424 --> 00:01:14,436
+veremos as habilidades necessárias
+do pipeline ETL,
+
+27
+00:01:14,469 --> 00:01:16,409
+do processamento
+de linguagem natural
+
+28
+00:01:16,442 --> 00:01:17,879
+e do aprendizado de máquina
+
+29
+00:01:17,912 --> 00:01:21,751
+para criar um projeto incrível
+que terá relevância mundial.
+

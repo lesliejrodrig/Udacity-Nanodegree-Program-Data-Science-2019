@@ -1,0 +1,76 @@
+1
+00:00:04,940 --> 00:00:10,375
+In this project, you're going to be analyzing thousands of real messages,
+
+2
+00:00:10,375 --> 00:00:11,985
+provided by Figure Eight,
+
+3
+00:00:11,985 --> 00:00:14,870
+that were sent during natural disasters,
+
+4
+00:00:14,870 --> 00:00:20,025
+either via social media or directly to disaster response organizations.
+
+5
+00:00:20,025 --> 00:00:26,610
+You'll build an ETL pipeline that processes message and category data from CSV files,
+
+6
+00:00:26,610 --> 00:00:29,270
+and load them into a SQLite database,
+
+7
+00:00:29,270 --> 00:00:32,580
+which our machine learning pipeline will then read from to
+
+8
+00:00:32,580 --> 00:00:36,435
+create and save a multi-output supervised learning model.
+
+9
+00:00:36,435 --> 00:00:42,885
+Then, your web app will extract data from this database to provide data visualizations,
+
+10
+00:00:42,885 --> 00:00:47,985
+and use your model to classify new messages for 36 categories.
+
+11
+00:00:47,985 --> 00:00:50,990
+Machine learning is critical to helping
+
+12
+00:00:50,990 --> 00:00:55,550
+different organizations understand which messages are relevant to them,
+
+13
+00:00:55,550 --> 00:00:58,010
+and which messages to prioritize.
+
+14
+00:00:58,010 --> 00:01:00,470
+During these disasters is when they have
+
+15
+00:01:00,470 --> 00:01:04,250
+the least capacity to filter out messages that matter,
+
+16
+00:01:04,250 --> 00:01:09,820
+and find basic messages such as using keyword searches to provide trivial results.
+
+17
+00:01:09,820 --> 00:01:14,514
+In this course, you'll learn the skills you need in ETL pipelines,
+
+18
+00:01:14,514 --> 00:01:17,070
+natural language processing, and machine learning
+
+19
+00:01:17,070 --> 00:01:22,170
+pipelines to create an amazing project with real-world significance.
+

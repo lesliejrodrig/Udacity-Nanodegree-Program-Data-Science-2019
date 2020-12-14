@@ -1,0 +1,272 @@
+1
+00:00:00,648 --> 00:00:04,457
+É hora de colocar suas habilidades
+de engenharia de dados em uso.
+
+2
+00:00:04,500 --> 00:00:07,175
+Você vai trabalhar
+em um projeto muito legal.
+
+3
+00:00:07,218 --> 00:00:08,858
+Nossos parceiros
+da Figure Eight
+
+4
+00:00:08,901 --> 00:00:11,953
+vão fornecer tuítes
+e mensagens de texto pré-rotuladas
+
+5
+00:00:11,996 --> 00:00:14,187
+de desastres da vida real.
+
+6
+00:00:14,230 --> 00:00:18,157
+Sua tarefa é preparar esses dados
+com um pipeline ETL
+
+7
+00:00:18,200 --> 00:00:20,373
+e usar um pipeline
+de aprendizado de máquina
+
+8
+00:00:20,416 --> 00:00:23,155
+para construir um modelo
+de aprendizado supervisionado.
+
+9
+00:00:23,198 --> 00:00:26,423
+Antes de começarmos, Robert vai
+nos dar algumas informações
+
+10
+00:00:26,466 --> 00:00:28,506
+sobre a procedência
+do conjunto de dados
+
+11
+00:00:28,549 --> 00:00:31,706
+e sobre como a Figure Eight
+preparou os dados para nós.
+
+12
+00:00:31,749 --> 00:00:35,496
+Obrigado. Esse é um dos maiores
+problemas que estamos tentando
+
+13
+00:00:35,539 --> 00:00:38,973
+resolver em Ciência de Dados
+e aprendizado de máquina.
+
+14
+00:00:39,016 --> 00:00:41,190
+Após um desastre,
+
+15
+00:00:41,233 --> 00:00:44,072
+normalmente, recebemos
+milhões de comunicações,
+
+16
+00:00:44,115 --> 00:00:46,303
+diretas ou por mídias sociais,
+
+17
+00:00:46,346 --> 00:00:49,494
+bem na hora em que as organizações
+de resposta a desastres
+
+18
+00:00:49,537 --> 00:00:51,227
+estão com a menor capacidade
+
+19
+00:00:51,270 --> 00:00:54,208
+de filtrar e selecionar
+as mensagens mais importantes.
+
+20
+00:00:54,251 --> 00:00:57,361
+Frequentemente, só uma
+em cada mil mensagens
+
+21
+00:00:57,404 --> 00:01:01,471
+é relevante para os profissionais
+de resposta a desastres.
+
+22
+00:01:01,514 --> 00:01:03,973
+Normalmente,
+em resposta a desastres,
+
+23
+00:01:04,016 --> 00:01:07,319
+organizações diferentes cuidam
+de partes diferentes do problema.
+
+24
+00:01:07,362 --> 00:01:09,108
+Uma organização
+cuida da água,
+
+25
+00:01:09,151 --> 00:01:11,330
+outra cuida
+das estradas bloqueadas,
+
+26
+00:01:11,373 --> 00:01:13,642
+outra cuida
+dos suprimentos médicos.
+
+27
+00:01:13,685 --> 00:01:17,333
+Ao olhar os dados, você vai ver
+que essas são as categorias
+
+28
+00:01:17,376 --> 00:01:19,707
+que selecionamos
+para cada conjunto de dados.
+
+29
+00:01:19,750 --> 00:01:21,560
+Usamos a Figure Eight
+
+30
+00:01:21,603 --> 00:01:24,727
+para muitos dos desastres de onde
+as mensagens foram retiradas,
+
+31
+00:01:24,770 --> 00:01:27,934
+depois, combinamos os conjuntos
+de dados e os re-rotulamos
+
+32
+00:01:27,977 --> 00:01:32,022
+para termos rótulos consistentes
+nos diferentes desastres.
+
+33
+00:01:32,065 --> 00:01:34,765
+Isso é para permitir
+que você investigue
+
+34
+00:01:34,808 --> 00:01:37,314
+as diferentes tendências
+que consiga encontrar
+
+35
+00:01:37,357 --> 00:01:40,363
+e construa modelos de aprendizado
+de máquina supervisionados.
+
+36
+00:01:40,406 --> 00:01:44,651
+Por exemplo, em uma palavra-chave
+como "água", você verá
+
+37
+00:01:44,694 --> 00:01:47,965
+que só em uma pequena porcentagem
+do tempo ela mapeará
+
+38
+00:01:48,008 --> 00:01:50,735
+para alguém que precise
+de água potável fresca
+
+39
+00:01:50,778 --> 00:01:53,206
+e que ela não identificará pessoas
+que dizem ter sede,
+
+40
+00:01:53,249 --> 00:01:54,795
+mas não usam a palavra "água".
+
+41
+00:01:54,838 --> 00:01:57,825
+Abordagens baseadas em aprendizado
+de máquina supervisionado
+
+42
+00:01:57,868 --> 00:02:01,676
+serão muito mais precisas
+do que a pesquisa de palavras-chave,
+
+43
+00:02:01,719 --> 00:02:05,879
+mas isso é uma grande brecha em
+contextos de resposta a desastres.
+
+44
+00:02:05,922 --> 00:02:10,676
+Estou ansioso para ver o que você
+vai construir e, quem sabe,
+
+45
+00:02:10,719 --> 00:02:12,779
+descobrir tendências
+e formas de construir
+
+46
+00:02:12,822 --> 00:02:14,431
+modelos de aprendizado
+de máquina
+
+47
+00:02:14,474 --> 00:02:16,889
+que nos ajudem a responder
+a futuros desastres.
+
+48
+00:02:17,838 --> 00:02:20,181
+Uma das minhas partes preferidas
+deste projeto
+
+49
+00:02:20,224 --> 00:02:22,242
+é o quanto o trabalho
+é significativo.
+
+50
+00:02:22,285 --> 00:02:24,715
+Pense nos benefícios
+que essa solução proporciona
+
+51
+00:02:24,758 --> 00:02:28,749
+a pessoas afetadas por desastres
+naturais no mundo todo.
+
+52
+00:02:28,792 --> 00:02:30,017
+Na próxima seção,
+
+53
+00:02:30,060 --> 00:02:32,915
+você receberá mais instruções
+para concluir o projeto,
+
+54
+00:02:32,958 --> 00:02:35,785
+incluindo uma visão geral
+do código fornecido
+
+55
+00:02:35,828 --> 00:02:37,410
+e uma ementa.
+
+56
+00:02:37,453 --> 00:02:40,352
+Boa sorte no projeto.
+Estou ansioso para ver o resultado.
+
